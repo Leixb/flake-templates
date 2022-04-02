@@ -7,7 +7,7 @@ no need to use `PypiDataRev` or `PypiData`.
 To use the template run:
 
 ```bash
-nix flake template new -t github:leixb/mach-nix-flake <ProjectName>
+nix flake new -t github:leixb/mach-nix-flake <ProjectName>
 ```
 
 You can manage the `Pypi` database using `nix flake lock`. For example, to
