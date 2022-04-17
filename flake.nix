@@ -19,6 +19,11 @@
 
       golang = self.templates.go;
 
+      java = {
+        path = ./java-maven;
+        description = "Java template using maven and JDTLS";
+      };
+
     };
     defaultTemplate = self.templates.python;
   };
