@@ -1,4 +1,8 @@
-# Simple mach-nix template with flakes
+# Opinionated Flake templates
+
+Flake templates with nix flakes, direnv, .editorconfig and .gitignore.
+
+## Python
 
 This is an example of how to use mach-nix with flakes properly, so
 that `pypi-deps-db` is managed through flake inputs and there is
