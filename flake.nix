@@ -12,6 +12,13 @@
         description = "Python template using mach-nix and flakes";
       };
 
+      go = {
+        path = ./go;
+        description = "Golang template";
+      };
+
+      golang = self.templates.go;
+
     };
     defaultTemplate = self.templates.python;
   };
