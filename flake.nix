@@ -4,7 +4,7 @@
 
     Use `nix flake new -t github:leixb/flate-templates#language` to use the template
   '';
-  outputs = self: {
+  outputs = self: rec {
     templates = {
 
       blank = {
@@ -22,7 +22,7 @@
         description = "Golang template";
       };
 
-      golang = self.templates.go;
+      golang = templates.go;
 
       java = {
         path = ./java-maven;
@@ -30,6 +30,7 @@
       };
 
     };
-    defaultTemplate = self.templates.blank;
+
+    defaultTemplate = templates.blank;
   };
 }
