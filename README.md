@@ -16,6 +16,14 @@ I plan on adding:
 - [GitHub actions](https://github.com/features/actions)
 - [READMEs with badges and fluff](https://shields.io/)
 
+- Rust
+- nix
+- R
+- Julia
+- Lua
+- LaTeX
+- C/C++
+
 ## Usage
 
 To use, specify the template with the language and project name (destination
