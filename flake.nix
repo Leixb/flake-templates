@@ -7,6 +7,11 @@
   outputs = self: {
     templates = {
 
+      blank = {
+        path = ./blank;
+        description = "Base template";
+      };
+
       python = {
         path = ./python;
         description = "Python template using mach-nix and flakes";
@@ -25,6 +30,6 @@
       };
 
     };
-    defaultTemplate = self.templates.python;
+    defaultTemplate = self.templates.blank;
   };
 }
