@@ -54,6 +54,7 @@
   in
   {
     devShell = pkgs.mkShellNoCC {
+      name = "python";
       buildInputs = [ python-env ];
     };
   });

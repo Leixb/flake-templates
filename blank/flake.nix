@@ -15,6 +15,7 @@
       pkgs = import nixpkgs { inherit system; };
     in {
       devShell = with pkgs; mkShellNoCC {
+        name = "blank";
         buildInputs = [ hello ];
       };
     });

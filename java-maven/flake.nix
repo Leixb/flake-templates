@@ -18,6 +18,7 @@
   in
   rec {
     devShell = with pkgs; mkShellNoCC {
+      name = "java";
       buildInputs = [
         jdk jdtls # JDTLS requires java > 1.11
 
