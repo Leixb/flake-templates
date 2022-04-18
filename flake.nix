@@ -29,6 +29,10 @@
         description = "Java template using maven and JDTLS";
       };
 
+      rust = {
+        path = ./rust;
+        description = "Rust template";
+      };
     };
 
     defaultTemplate = templates.blank;

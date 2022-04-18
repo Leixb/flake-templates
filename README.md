@@ -16,7 +16,6 @@ I plan on adding:
 - [GitHub actions](https://github.com/features/actions)
 - [READMEs with badges and fluff](https://shields.io/)
 
-- Rust
 - nix
 - R
 - Julia
@@ -75,3 +74,11 @@ nix flake new -t github:Leixb/flake-templates#java <ProjectName>
 
 It also provides a two step maven build which needs changing the values
 on the `sha256` checksums manually.
+
+### Rust
+
+Shell with cargo, rust-analyzer and other rust tooling.
+
+```bash
+nix flake new -t github:Leixb/flake-templates#rust <ProjectName>
+```
