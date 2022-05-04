@@ -19,7 +19,6 @@ I plan on adding:
 - nix
 - R
 - Julia
-- Lua
 - C/C++
 
 ## Usage
@@ -89,4 +88,12 @@ Already includes latex files to get going quickly.
 
 ```bash
 nix flake new -t github:Leixb/flake-templates#latex <ProjectName>
+```
+
+### Lua
+
+Lua with sumneko-lua-language-server.
+
+```bash
+nix flake new -t github:Leixb/flake-templates#lua <ProjectName>
 ```

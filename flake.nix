@@ -38,6 +38,11 @@
         path = ./latex;
         description = "LaTeX template";
       };
+
+      lua = {
+        path = ./lua;
+        description = "Lua template";
+      };
     };
 
     defaultTemplate = templates.blank;
