@@ -20,7 +20,6 @@ I plan on adding:
 - R
 - Julia
 - Lua
-- LaTeX
 - C/C++
 
 ## Usage
@@ -81,4 +80,13 @@ Shell with cargo, rust-analyzer and other rust tooling.
 
 ```bash
 nix flake new -t github:Leixb/flake-templates#rust <ProjectName>
+```
+
+### LaTeX
+
+LaTeX template using [Leixb/latex-template](https://github.com/Leixb/latex-template).
+Already includes latex files to get going quickly.
+
+```bash
+nix flake new -t github:Leixb/flake-templates#latex <ProjectName>
 ```

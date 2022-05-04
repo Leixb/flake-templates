@@ -33,6 +33,11 @@
         path = ./rust;
         description = "Rust template";
       };
+
+      latex = {
+        path = ./latex;
+        description = "LaTeX template";
+      };
     };
 
     defaultTemplate = templates.blank;
