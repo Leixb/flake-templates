@@ -29,7 +29,7 @@
 
   flake-utils.lib.eachDefaultSystem (system:
   let
-    pkgs = nixpkgs.legacyPackages.${system};
+    pkgs = import nixpkgs { inherit system; };
 
     # Do NOT use import mach-nix {inherit system;};
     #
