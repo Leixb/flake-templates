@@ -81,6 +81,14 @@ Shell with cargo, rust-analyzer and other rust tooling.
 nix flake new -t github:Leixb/flake-templates#rust <ProjectName>
 ```
 
+### R
+
+R with tidyverse and languageserver
+
+```bash
+nix flake new -t github:Leixb/flake-templates#R <ProjectName>
+```
+
 ### LaTeX
 
 LaTeX template using [Leixb/latex-template](https://github.com/Leixb/latex-template).

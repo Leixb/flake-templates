@@ -34,6 +34,13 @@
         description = "Rust template";
       };
 
+      R = {
+        path = ./R;
+        description = "R template";
+      };
+
+      r = templates.R;
+
       latex = {
         path = ./latex;
         description = "LaTeX template";
