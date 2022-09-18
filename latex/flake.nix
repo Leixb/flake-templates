@@ -1,10 +1,8 @@
 {
-  inputs.utils = {
-    url = "github:numtide/flake-utils";
-    inputs.nixpkgs.follows = "nixpkgs";
+  inputs = {
+    utils.url = "github:numtide/flake-utils";
+    latex.url = "github:leixb/latex-template";
   };
-
-  inputs.latex.url = "github:leixb/latex-template";
 
   outputs = { self, nixpkgs, utils, latex }:
     utils.lib.eachDefaultSystem (system:
