@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.5.3"
+pandas = "^1.4.4"
+numpy = "^1.23.2"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.4.6"
+python-lsp-server = "^1.5.0"
+black = "^22.8.0"
+pylsp-mypy = "^0.6.2"
+nbconvert = "<7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
