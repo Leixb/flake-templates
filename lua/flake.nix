@@ -1,5 +1,5 @@
 {
-  description = "Sumneko-lua-language-server";
+  description = "lua-language-server";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
@@ -15,7 +15,7 @@
 
         buildInputs = with pkgs; [
           lua
-          sumneko-lua-language-server
+          lua-language-server
         ];
       };
     }
